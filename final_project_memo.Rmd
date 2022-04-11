@@ -1,0 +1,51 @@
+---
+title: "Final Project Memo - PSTAT 131"
+output: html_document
+date: '2022-04-10'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Overview of Dataset
+
+### What does it include?
+The dataset includes information on the sizes of sloths, with each row being a different observed sloth. It contains the claw length, the endangered category for the sloth, what species the sloth is, what subspecies the sloth is, its size, tail length, and weight.
+
+### Where and how will you be obtaining it? Include the link and source.
+The link to the dataset can be found here: https://www.kaggle.com/datasets/bertiemackie/sloth-species 
+
+### About how many observations? How many predictors?
+There are 4999 observations and 7 predictors. 
+
+### What types of variables will you be working with?
+I will be working with both quantitative and qualitative data for the sloths. 
+* Quantitative: Claw length, size, tail length, weight
+* Qualitative: Endangered category, species, subspecies
+
+
+## Overview of Research Questions
+
+### What variable(s) are you interested in predicting? What question(s) are you interested in answering?
+I am interested in predicting if a sloth is two-toed or three-toed. I am also interested in predicting what sub species a sloth belongs to.
+
+### Name your response/outcome variable(s) and briefly describe it/them.
+
+
+### Will these questions be best answered with a classification or regression approach?
+I think that these questions will be best answered with a classification approach as I am predicting discrete output variables (two-toed or three-toed and subspecies of a sloth).
+
+### Which predictors do you think will be especially useful?
+I believe that the predictors that would be especially ueful in predicting if a sloth is two-toed or three-toed and what subspecies a slth is would most likely be the claw length, size, tail length, and weight of the sloth. 
+
+### Is the goal of your model descriptive, predictive, inferential, or a combination? Explain.
+I believe that the goal of my model would be 
+
+
+## Proposed Project Timeline
+
+
+
+
+## Questions/Concerns
